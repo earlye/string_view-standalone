@@ -461,25 +461,25 @@ namespace bpstd { // back-port std
                     const basic_string_view<CharT,Traits>& rhs ) noexcept;
 
   ///
-  /// \param lhs
-  /// \param rhs
-  /// \return
+  /// \param lhs the left string view
+  /// \param rhs the right string view
+  /// \return true if lhs > rhs
   template<typename CharT, typename Traits>
   bool operator > ( const basic_string_view<CharT,Traits>& lhs,
                     const basic_string_view<CharT,Traits>& rhs ) noexcept;
 
   ///
-  /// \param lhs
-  /// \param rhs
-  /// \return
+  /// \param lhs the left string view
+  /// \param rhs the right string view
+  /// \return true if lhs <= rhs
   template<typename CharT, typename Traits>
   bool operator <= ( const basic_string_view<CharT,Traits>& lhs,
                      const basic_string_view<CharT,Traits>& rhs ) noexcept;
 
   ///
-  /// \param lhs
-  /// \param rhs
-  /// \return
+  /// \param lhs the left string view
+  /// \param rhs the right string view
+  /// \return true if lhs >= rhs
   template<typename CharT, typename Traits>
   bool operator >= ( const basic_string_view<CharT,Traits>& lhs,
                      const basic_string_view<CharT,Traits>& rhs ) noexcept;
